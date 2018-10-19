@@ -1,0 +1,225 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+#logo {
+  height:auto;
+  width: 250px;
+}
+
+#header {
+  padding: 0 10px 10px 10px;
+}
+
+#menuitems {
+  font-family: 'Raleway';
+  font-size:1.1em;
+  color:black;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.dropdown-menu {
+  margin-left:-30px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+
+
+}
+
+.dropdown-item {
+
+  font-family: 'Raleway',sans-serif;
+  text-align:center;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color:white;
+  text-decoration: none;
+  color:black;
+
+
+}
+
+#mainNav a:hover {
+  font-weight:700;
+  text-decoration:underline;
+}
+
+
+
+#imagecontainer {
+  width:100%;
+  position:relative;
+  text-align: center;
+  /* background-image:url('https://i.imgur.com/cndLT4Q.jpg'); */
+  background-image:url('https://image.ibb.co/nOBiy0/hands.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#handimage {
+  width:95%;
+}
+
+.introtext {
+  color:white;
+}
+
+.introtextheader {
+  color:white;
+  font-size:3em;
+}
+
+.text {
+  font-family: 'Raleway',sans-serif;
+}
+
+.textfaq {
+  text-align: left;
+  font-family: 'Raleway',sans-serif;
+}
+
+.contacttext {
+  font-family: 'Raleway',sans-serif;
+  text-align:left;
+}
+
+#readmore_button {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 9%;
+}
+
+#readmore_text {
+    width: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2em;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 6px;
+}
+
+#readmore_text a {
+
+    color: #003d6a;
+}
+
+.infobox {
+  padding:2%;
+}
+
+.textbox {
+  padding:2%;
+  text-align:center;
+}
+
+#headshot {
+  width:100%;
+  height:auto;
+}
+
+#pic26 {
+  width:66%;
+  height:auto;
+}
+
+#logo_bottom {
+
+  width:80%;
+  height:auto;
+  text-align:center;
+}
+
+#socialmedia_bottom {
+  text-align:right;
+  font-size:2em;
+
+}
+
+.fa-facebook {
+  color:#4b6dad;
+  padding-top:5%;
+  padding-right:5%;
+}
+
+.fa-twitter {
+  color:#00bbf1;
+  padding-top:5%;
+  padding-right:5%;
+}
+
+.footer {
+  border-top:1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom:1%;
+}
+
+
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+
+
+}
+
+@media (max-width: 822px) {
+  header {
+    padding: 156px 0 100px;
+  }
+
+  /* .introtextheader {
+    color:white;
+    font-size:2em;
+    padding-top:5%;
+  } */
+  .introtextheader {
+    display:none;
+  }
+  .introtext {
+    display:none;
+  }
+
+  #readmore_button {
+    display:none;
+  }
+
+  #pula {
+    display: none;
+  }
+
+  #imagecontainer {
+    margin-top:20%;
+  }
+
+
+}
+
+section {
+  padding: 150px 0;
+}
