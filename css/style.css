@@ -184,6 +184,14 @@ header {
   header {
     padding: 156px 0 100px;
   }
+  
+  .dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: auto; 
+  }
+
+
+}
 
 
 }
@@ -215,6 +223,11 @@ header {
 
   #imagecontainer {
     margin-top:20%;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: auto; 
   }
 
 
