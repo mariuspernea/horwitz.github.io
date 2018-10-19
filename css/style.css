@@ -232,9 +232,14 @@ header {
   }
   
   .dropdown-menu {
+    display:none;
     position:absolute;
     z-index:1;
   }
+  
+  .dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: auto;
 
 
 }
