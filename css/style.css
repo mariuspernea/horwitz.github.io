@@ -230,6 +230,11 @@ header {
     padding-top:50%!important;
     margin-bottom:-10%!important;
   }
+  
+  .dropdown-menu {
+    position:absolute;
+    z-index:1;
+  }
 
 
 }
