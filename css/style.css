@@ -71,9 +71,9 @@ header {
   position:relative;
   text-align: center;
   /* background-image:url('https://i.imgur.com/cndLT4Q.jpg'); */
-  /* background-image:url('https://image.ibb.co/nOBiy0/hands.jpg'); */
+  background-image:url('https://image.ibb.co/nOBiy0/hands.jpg'); 
   /* background-image:url('https://preview.ibb.co/dxAXi0/Theatre1-cut.jpg'); */
-  background-image:url('https://image.ibb.co/eAiJO0/Theatre-1.jpg');
+  /*background-image:url('https://image.ibb.co/eAiJO0/Theatre-1.jpg');*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
